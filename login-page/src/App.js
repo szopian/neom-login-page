@@ -1,5 +1,13 @@
+import React from "react";
+
+import Background from "./components/background/background";
+
 function App() {
-  return <div className="App">Login</div>;
+  return (
+    <div className="App">
+      <Background />
+    </div>
+  );
 }
 
 export default App;
